@@ -138,13 +138,13 @@ h1.title {
 }
 .emerald {
   background: #425cbb;
-  color: beige;
+  color: #eee;
 }
 .emerald-border {
   border: 1px solid #425cbb !important;
 }
 .bg-beige {
-  background: beige;
+  background: #eee;
 }
 .pl-custom {
   padding-left: 0 !important;
