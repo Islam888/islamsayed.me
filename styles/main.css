@@ -277,6 +277,10 @@ a[href^="mailto:"]::before {
 .invalid {
   border: 2px solid #f00;
 }
+/****/
+.footer-height {
+  height: 150px !important;
+}
 /**media queries**/
 @media (min-width: 320px) {
   /* .equal-padding {
@@ -337,6 +341,9 @@ a[href^="mailto:"]::before {
   }
   .bg-logo-6 {
     animation-delay: 1s !important;
+  }
+  .footer-height {
+    height: 360px !important;
   }
 }
 @media (min-width: 768px) {
