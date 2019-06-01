@@ -1,6 +1,6 @@
 window.onload = () => {
   //inside viewport
-  var insideViewport = function (args) {
+  /* var insideViewport = function (args) {
     window.onscroll = function () {
       for (const arg of args) {
         if (!Array.isArray(arg.classesNames)) {
@@ -55,7 +55,7 @@ window.onload = () => {
         elements.classList.add("fadeIn");
       }
     }]);
-  }
+  } */
 
   const contactBtns = document.getElementsByClassName('contact-btn')
   let scrollToElementInterval;
