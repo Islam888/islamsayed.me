@@ -65,30 +65,36 @@ h1.title {
 
 .bg-logo-1 {
   background-image: url("../img/udacity.png");
-  animation-delay: 0 !important;
+  -webkit-animation-delay: 0 !important;
+          animation-delay: 0 !important;
   
 }
 .bg-logo-2 {
   background-image: url("../img/codingcoach.svg");
-  animation-delay: 0 !important;
+  -webkit-animation-delay: 0 !important;
+          animation-delay: 0 !important;
  
 }
 .bg-logo-3 {
   background-image: url("../img/mentorswithoutborders.png");
-  animation-delay: 0.2s !important;
+  -webkit-animation-delay: 0.2s !important;
+          animation-delay: 0.2s !important;
   
 }
 .bg-logo-4 {
   background-image: url("../img/mabrains.svg");
-  animation-delay: 0.2s !important;
+  -webkit-animation-delay: 0.2s !important;
+          animation-delay: 0.2s !important;
 }
 .bg-logo-5 {
   background-image: url("../img/logo-2.png");
-  animation-delay: 0.4s !important;
+  -webkit-animation-delay: 0.4s !important;
+          animation-delay: 0.4s !important;
 }
 .bg-logo-6 {
   background-image: url("../img/logo-3.png");
-  animation-delay: .4s !important;
+  -webkit-animation-delay: .4s !important;
+          animation-delay: .4s !important;
 }
 
 .bg-logo-1,
@@ -105,6 +111,9 @@ h1.title {
   color: #d6d6c2;
 }
 
+button.emerald:focus {
+  outline: none;
+}
 
 .emerald-border:hover {
   border: 1px solid #0037fc !important;
@@ -138,11 +147,11 @@ h1.title {
   background: lime;
 }
 .emerald {
-  background: #3b52a8;
+  background: #481e4c;
   color: #eee;
 }
 .emerald-border {
-  border: 1px solid #3b52a8 !important;
+  border: 1px solid #481e4c !important;
 }
 .bg-beige {
   background: #eee;
@@ -179,10 +188,12 @@ a.social-icon {
 }
 a.social-icon img {
   border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 a.social-icon:hover img {
-  transform: scale(1.1)
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1)
 }
 a[href^="tel:"],
 a[href^="mailto:"] {
@@ -200,6 +211,33 @@ a[href^="tel:"]::before {
 a[href^="mailto:"]::before {
   content: "\2709";
   margin-right: 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact-form input:-webkit-autofill,
+.contact-form textarea:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover,
+.contact-form textarea:-webkit-autofill:hover,
+.contact-form input:-webkit-autofill:focus,
+.contact-form textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #d4d2c8;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /*Snackbar*/
@@ -326,22 +364,28 @@ a[href^="mailto:"]::before {
     font-size: 1.75rem;
   }
   .bg-logo-1 {
-    animation-delay: 0s !important;
+    -webkit-animation-delay: 0s !important;
+            animation-delay: 0s !important;
   }
   .bg-logo-2 {
-    animation-delay: 0.2s !important;
+    -webkit-animation-delay: 0.2s !important;
+            animation-delay: 0.2s !important;
   }
   .bg-logo-3 {
-    animation-delay: 0.4s !important;
+    -webkit-animation-delay: 0.4s !important;
+            animation-delay: 0.4s !important;
   }
   .bg-logo-4 {
-    animation-delay: 0.6s !important;
+    -webkit-animation-delay: 0.6s !important;
+            animation-delay: 0.6s !important;
   }
   .bg-logo-5 {
-    animation-delay: 0.8s !important;
+    -webkit-animation-delay: 0.8s !important;
+            animation-delay: 0.8s !important;
   }
   .bg-logo-6 {
-    animation-delay: 1s !important;
+    -webkit-animation-delay: 1s !important;
+            animation-delay: 1s !important;
   }
   .footer-height {
     height: 360px !important;
