@@ -231,6 +231,10 @@ a[href^="mailto:"]::before {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+.dot {
+  font-size: 2.75rem;
+}
+
 /*Snackbar*/
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar-success,
