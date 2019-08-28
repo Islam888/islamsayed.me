@@ -19,7 +19,7 @@ h1.title {
   height: 300px !important;
 }
 .footer-height {
-  height: 250px;
+  height: 260px;
 }
 
 .toggle {
@@ -227,6 +227,7 @@ a[href^="mailto:"]::before {
 .contact-form textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: #d4d2c8;
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  box-shadow: 0 0 0px 1000px transparent inset; 
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -307,9 +308,9 @@ a[href^="mailto:"]::before {
   border: 2px solid #f00;
 }
 /****/
-.footer-height {
+/* .footer-height {
   height: 150px !important;
-}
+} */
 /**media queries**/
 @media (min-width: 320px) {
   /* .equal-padding {
@@ -371,9 +372,9 @@ a[href^="mailto:"]::before {
   .bg-logo-6 {
     animation-delay: 1s !important;
   }
-  .footer-height {
-    height: 360px !important;
-  }
+/*   .footer-height {
+    height: 260px !important;
+  } */
 }
 @media (min-width: 768px) {
   .equal-padding {
@@ -400,9 +401,9 @@ a[href^="mailto:"]::before {
   .half-vh {
     height: 360px !important;
   }
-  .footer-height {
-    height: 360px !important;
-  }
+/*   .footer-height {
+    height: 260px !important;
+  } */
   .form-group {
     margin-bottom: 1rem !important;
   }
