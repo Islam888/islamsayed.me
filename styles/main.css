@@ -65,36 +65,30 @@ h1.title {
 
 .bg-logo-1 {
   background-image: url("../img/udacity.png");
-  -webkit-animation-delay: 0 !important;
-          animation-delay: 0 !important;
+  animation-delay: 0 !important;
   
 }
 .bg-logo-2 {
   background-image: url("../img/codingcoach.svg");
-  -webkit-animation-delay: 0 !important;
-          animation-delay: 0 !important;
+  animation-delay: 0 !important;
  
 }
 .bg-logo-3 {
   background-image: url("../img/mentorswithoutborders.png");
-  -webkit-animation-delay: 0.2s !important;
-          animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
   
 }
 .bg-logo-4 {
   background-image: url("../img/mabrains.svg");
-  -webkit-animation-delay: 0.2s !important;
-          animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
 }
 .bg-logo-5 {
   background-image: url("../img/logo-2.png");
-  -webkit-animation-delay: 0.4s !important;
-          animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
 }
 .bg-logo-6 {
   background-image: url("../img/logo-3.png");
-  -webkit-animation-delay: .4s !important;
-          animation-delay: .4s !important;
+  animation-delay: .4s !important;
 }
 
 .bg-logo-1,
@@ -188,12 +182,10 @@ a.social-icon {
 }
 a.social-icon img {
   border-radius: 50%;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 a.social-icon:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1)
+  transform: scale(1.1)
 }
 a[href^="tel:"],
 a[href^="mailto:"] {
@@ -224,8 +216,7 @@ a[href^="mailto:"]::before {
 .contact-form input:focus,
 .contact-form textarea:focus {
   background: transparent !important;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .contact-form input:-webkit-autofill,
@@ -236,7 +227,6 @@ a[href^="mailto:"]::before {
 .contact-form textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: #d4d2c8;
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
-  -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -364,28 +354,22 @@ a[href^="mailto:"]::before {
     font-size: 1.75rem;
   }
   .bg-logo-1 {
-    -webkit-animation-delay: 0s !important;
-            animation-delay: 0s !important;
+    animation-delay: 0s !important;
   }
   .bg-logo-2 {
-    -webkit-animation-delay: 0.2s !important;
-            animation-delay: 0.2s !important;
+    animation-delay: 0.2s !important;
   }
   .bg-logo-3 {
-    -webkit-animation-delay: 0.4s !important;
-            animation-delay: 0.4s !important;
+    animation-delay: 0.4s !important;
   }
   .bg-logo-4 {
-    -webkit-animation-delay: 0.6s !important;
-            animation-delay: 0.6s !important;
+    animation-delay: 0.6s !important;
   }
   .bg-logo-5 {
-    -webkit-animation-delay: 0.8s !important;
-            animation-delay: 0.8s !important;
+    animation-delay: 0.8s !important;
   }
   .bg-logo-6 {
-    -webkit-animation-delay: 1s !important;
-            animation-delay: 1s !important;
+    animation-delay: 1s !important;
   }
   .footer-height {
     height: 360px !important;
